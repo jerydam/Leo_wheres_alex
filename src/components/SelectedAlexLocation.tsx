@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import behindBuildingImg from '../assets/behind_building.svg';
 import inWeedsImg from '../assets/in_weeds.jpg';
-import { Answer } from '@state/RecordTypes/wheres_alex_vxxx.js';
+import { Answer } from '@state/RecordTypes/wheres_luna_vxxx';
 
 type SelectedAlexLocationProps = {
   answer: Answer;

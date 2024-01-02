@@ -5,7 +5,7 @@ import SelectedAlexLocation from '@components/SelectedAlexLocation.js';
 import Wager from '@components/Wager.js';
 import Versus from '@components/Versus.js';
 import { useGameStore } from '@state/gameStore.js';
-import { Answer } from '@state/RecordTypes/wheres_alex_vxxx.js';
+import { Answer } from '@state/RecordTypes/wheres_luna_vxxx.js';
 import {
   GAME_FUNCTIONS,
   GAME_PROGRAM_ID,
@@ -162,7 +162,7 @@ const Reveal = () => {
         <div className='flex flex-col gap-2'>
           <SelectedAlexLocation answer={answer} win={undefined} />
           <div className='self-center whitespace-nowrap text-center text-sm font-extrabold tracking-tight text-primary-green'>
-            You chose to hide Alex {answer}!
+            You chose to hide luna {answer}!
           </div>
         </div>
       )}

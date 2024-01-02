@@ -1,6 +1,6 @@
 import inWeedsImg from '../assets/in_weeds.jpg';
 import behindBuildingImg from '../assets/behind_building.svg';
-import { Answer } from '@state/RecordTypes/wheres_alex_vxxx';
+import { Answer } from '@state/RecordTypes/wheres_luna_vxxx';
 
 type HideAlexProps = {
   setAnswer: (answer: Answer) => void;
@@ -28,11 +28,11 @@ function ChooseAlexLocation({ setAnswer, answer, hiding }: HideAlexProps) {
       <p className='self-center whitespace-nowrap text-center text-sm font-extrabold tracking-tight text-primary-green'>
         {((): string => {
           if (answer === undefined && hiding) {
-            return 'Choose where to hide Alex';
+            return 'Choose where to hide luna';
           } else if (hiding) {
-            return `You chose to hide Alex ${answer}`;
+            return `You chose to hide luna ${answer}`;
           } else {
-            return `You think Alex is ${answer}`;
+            return `You think luna is ${answer}`;
           }
         })()}
       </p>

@@ -17,7 +17,7 @@ import {
   transitionFees,
 } from '@state/manager.js';
 import { useEffect, useState } from 'react';
-import { Answer } from '@state/RecordTypes/wheres_alex_vxxx.js';
+import { Answer } from '@state/RecordTypes/wheres_luna_vxxx.js';
 import { Step, useAcceptGameStore } from './store.js';
 import { useGameStore } from '@state/gameStore.js';
 import { useMsRecords } from '@hooks/msRecords.js';
@@ -204,7 +204,7 @@ function AcceptGame() {
       <div className='flex h-full w-full flex-col items-center gap-6 px-5'>
         <div className='flex w-full flex-col gap-2'>
           <Nav step={2} isChallenger={false} />
-          <PageHeader bg='bg-primary-blue' text='FIND ALEX' />
+          <PageHeader bg='bg-primary-blue' text='FIND LUNA' />
         </div>
         <ChooseAlexLocation
           setAnswer={(answer) => {

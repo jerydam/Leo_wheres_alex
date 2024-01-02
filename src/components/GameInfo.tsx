@@ -10,7 +10,7 @@ function GameInfo(props: {
       <img
         src={alexHeadImg}
         className='z-0 h-full max-h-[5rem] max-w-[50%] object-contain'
-        alt='Alex head'
+        alt='luna head'
       />
       <div className='flex w-full flex-col items-center justify-center self-stretch rounded-lg bg-primary-green px-5 py-1.5'>
         <h1 className='max-w-[274px] self-center text-center text-3xl font-extrabold leading-8 text-primary-black'>

@@ -1,9 +1,9 @@
 import PageHeader from '@components/PageHeader';
-import SelectedAlexLocation from '@components/SelectedAlexLocation';
+import SelectedlunaLocation from '@components/SelectedAlexLocation';
 import Wager from '@components/Wager';
 import Button from '@components/Button';
 import { useGameStore } from '@state/gameStore';
-import { getAnswer } from '@state/RecordTypes/wheres_alex_vxxx';
+import { getAnswer } from '@state/RecordTypes/wheres_luna_vxxx';
 import {
   GAME_FUNCTIONS,
   GAME_PROGRAM_ID,
@@ -162,24 +162,24 @@ const Win = () => {
 
   return (
     <div className='flex h-full w-full flex-col justify-center gap-4'>
-      <PageHeader text="WHERE'S ALEX" bg='bg-primary-blue' />
+      <PageHeader text="WHERE'S luna" bg='bg-primary-blue' />
       <Wager wagerAmount={wager} winnings />
       <div className='flex flex-col gap-2'>
-        <SelectedAlexLocation
+        <SelectedlunaLocation
           answer={getAnswer(challenger_answer)}
           win={true}
         />
         <div className='self-center whitespace-nowrap text-center text-sm font-extrabold tracking-tight text-primary-green'>
           {isChallenger
-            ? `You put Alex ${getAnswer(challenger_answer)}`
-            : `${shortenAddress(challenger_address)} put Alex ${getAnswer(
+            ? `You put luna ${getAnswer(challenger_answer)}`
+            : `${shortenAddress(challenger_address)} put luna ${getAnswer(
                 challenger_answer
               )}`}
         </div>
         <div className='self-center whitespace-nowrap text-center text-sm font-extrabold tracking-tight text-primary-green'>
           {!isChallenger
-            ? `You guessed Alex was ${getAnswer(opponent_answer)}`
-            : `${shortenAddress(opponent_address)} guessed Alex was ${getAnswer(
+            ? `You guessed luna was ${getAnswer(opponent_answer)}`
+            : `${shortenAddress(opponent_address)} guessed luna was ${getAnswer(
                 opponent_answer
               )}`}
         </div>
