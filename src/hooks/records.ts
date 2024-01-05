@@ -5,7 +5,7 @@ export const useGameRecords = () => {
     filter: {
       programIds: [
         'wheres_luna_v018.aleo',
-        'puzzle_pieces_v015.aleo',
+        'luna_piece_v016.aleo',
         'multiparty_pvp_utils_v015.aleo',
       ],
       type: 'unspent',
@@ -16,7 +16,7 @@ export const useGameRecords = () => {
     (record) => record.programId === 'wheres_luna_v018.aleo'
   );
   const puzzleRecords = records?.filter(
-    (record) => record.programId === 'puzzle_pieces_v015.aleo'
+    (record) => record.programId === 'luna_piece_v016.aleo'
   );
   const utilRecords = records?.filter(
     (record) => record.programId === 'multiparty_pvp_utils_v015.aleo'
