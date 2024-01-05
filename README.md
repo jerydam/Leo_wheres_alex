@@ -14,7 +14,7 @@ Built with Puzzle Wallet & Puzzle SDK -- uses programmable private multisigs und
 ### Puzzle Wallet iOS Download [link](https://testflight.apple.com/join/bikon7Nj)
 
 
-[<img src="https://github.com/puzzlehq/serengeti/assets/39972641/9650a6b8-5680-4a53-b6c6-608b8809d38e">](https://wheresalex.puzzle.online/)
+[<img src="public/luna.png">](https://leo-wheres-luna.vercel.app/)
 
 
 # About Where's Luna?
