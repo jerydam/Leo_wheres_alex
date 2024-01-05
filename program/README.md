@@ -1,6 +1,6 @@
-# wheres_alex_v011.aleo
+# wheres_Luna _v011.aleo
 
-## High level overview of Where's Alex with the Puzzle Wallet and Puzzle SDK
+## High level overview of Where's Luna  with the Puzzle Wallet and Puzzle SDK
 
 <br />
 
@@ -10,11 +10,11 @@ More information on the Puzzle Wallet and Puzzle SDK can be found [here](https:/
 
 <br />
 
-# Walking through the Where's Alex Leo programs
+# Walking through the Where's Luna  Leo programs
 
 <br />
 
-Note: There is additional technical functionality in the wheres_alex program for better FE UX and notification enablement that is not explained in detail below.
+Note: There is additional technical functionality in the wheres_Luna  program for better FE UX and notification enablement that is not explained in detail below.
 
 <br />
 

@@ -1,11 +1,11 @@
-# Where's Alex private multiparty game on Aleo 
-Hide Alex and challenge a friend to find Alex -- winner gets the pot!
+# Where's Luna private multiparty game on Aleo 
+Hide Luna and challenge a friend to find Luna -- winner gets the pot!
 
-Alex's location is hidden onchain from the other party, and the entire game is hidden from everyone on chain so you can bet as much as you want without judgement :)
+Luna's location is hidden onchain from the other party, and the entire game is hidden from everyone on chain so you can bet as much as you want without judgement :)
 
 Built with Puzzle Wallet & Puzzle SDK -- uses programmable private multisigs under the hood!
 
-### Where's Alex Leo Program Docs: [link](https://github.com/puzzlehq/wheres_alex/tree/main/program)
+### Where's Luna Leo Program Docs: [link](https://github.com/jerydam/Leo_wheres_alex/tree/main/program)
  
 ### Puzzle SDK Docs: [link](https://docs.puzzle.online/guides/getting_started/)
 ### Puzzle Devtools Site: [link](https://dev.puzzle.online/)
@@ -17,49 +17,49 @@ Built with Puzzle Wallet & Puzzle SDK -- uses programmable private multisigs und
 [<img src="https://github.com/puzzlehq/serengeti/assets/39972641/9650a6b8-5680-4a53-b6c6-608b8809d38e">](https://wheresalex.puzzle.online/)
 
 
-# About Where's Alex?
-Where's Alex? is a fun experiment that aims to be a fun 1v1 game to showcase how to have a completely private multiparty game on Aleo! This technical overview reviews the issues with multiparty privacy and how this is solved using programmable private multisigs and incentives!
+# About Where's Luna?
+Where's Luna? is a fun experiment that aims to be a fun 1v1 game to showcase how to have a completely private multiparty game on Aleo! This technical overview reviews the issues with multiparty privacy and how this is solved using programmable private multisigs and incentives!
 
 <br /> 
 
-## What is the "Where's Alex?" game?
-Hide alex in a secret location and wager another person on Aleo to guess where you hid Alex. If they guess wrong, then you win the prize pot between you both! 
+## What is the "Where's Luna?" game?
+Hide Luna in a secret location and wager another person on Aleo to guess where you hid Luna. If they guess wrong, then you win the prize pot between you both! 
 
  <br />
 
 ## So what's the point of the game?
-Have fun with other members of the Aleo community, rack up some wins and rack up some puzzle pieces! 
+Have fun with other members of the Aleo community, rack up some wins and rack up some Luna pieces! 
 
 <br />
 
-The puzzle pieces don't mean anything and can be minted if you are running low -- they are just for fun to experiment with Leo token standards on what's necessary for programmbale private multisigs.
+The Luna pieces don't mean anything and can be minted if you are running low -- they are just for fun to experiment with Leo token standards on what's necessary for programmbale private multisigs.
 
  <br />
 
 ## How does the game work?
 The FE for the game utilizes key multisig features using the Puzzle Wallet and Puzzle SDK described below. <br /> <br />
 The game is split into 3 Leo Programs described below:
-1. Puzzle Pieces token program (with _n_ of _n_ programmable multisig functions)
+1. Luna pieces token program (with _n_ of _n_ programmable multisig functions)
 2. Multiparty PVP utils program
-3. Where's Alex program
+3. Where's Luna program
 
 <br /> 
 
 If you're interested in building your own multiparty game on Aleo, fork this repo and give it a shot! 
 
-# How to play Where's Alex
+# How to play Where's Luna
 1. Starting a new game (challenger)
-- mint Puzzle Pieces if you don't have already
+- mint Luna pieces if you don't have already
 - challenge another Aleo address
-- hide alex in either the weeds or the bushes
+- hide Luna in either the weeds or the bushes
 - set your wager amount to win if your opponent guesses wrong!
 
 <br /> 
 
 2. Accepting a new game (opponent)
-- mint puzzle pieces if you don't have already
+- mint Luna pieces if you don't have already
 - match wager from the challenger
-- guess if alex is hiding in the weeds or the bushes
+- guess if Luna is hiding in the weeds or the bushes
 - accept the game and lock in the wagers to win if you guess correct!
 
 <br /> 
@@ -69,7 +69,7 @@ If you're interested in building your own multiparty game on Aleo, fork this rep
 - Finish the geam and payout the wagers to you if the opponent guessed wrong or the opponent if they guessed right!
 
 
-# How Where's Alex showcases how to solve issues in multiparty privacy
+# How Where's Luna showcases how to solve issues in multiparty privacy
 
 ## Defining Multiparty Privacy
 Multiparty privacy is a broad category and can be split into multiple categories based on use cases like:
@@ -136,7 +136,7 @@ These are the last most common complaints of an online poker game -- opponents w
 
 <br />
 
-## How Where's Alex solves the issues with multiparty privacy
+## How Where's Luna solves the issues with multiparty privacy
 
 <br />
 
@@ -159,7 +159,7 @@ This alleviates the concern that your actions will be carried out and reach the 
 <br />
 
 **3. Multiparty computation attacks: timeout and denial of service** <br />
-The secret sauce of Where's Alex is solving the rage-quit, colllusion and denial of service problem with incentive engineering and game design.
+The secret sauce of Where's Luna is solving the rage-quit, colllusion and denial of service problem with incentive engineering and game design.
 
 <br />
 
@@ -170,16 +170,16 @@ Because the game is a simple 1v1 -- we also don't have to worry about the collus
 
 <br />
 
-# How Where's Alex works
+# How Where's Luna works
 
 <br />
 
 Below we'll walk through the following:
-1. How the Where's Alex? game works at a high level with Leo programs, Puzzle Wallet, and Puzzle SDK
-2. How the Where's Alex? Leo programs work in depth
+1. How the Where's Luna? game works at a high level with Leo programs, Puzzle Wallet, and Puzzle SDK
+2. How the Where's Luna? Leo programs work in depth
 
 
-## High level overview of Where's Alex Leo program on Aleo
+## High level overview of Where's Luna Leo program on Aleo
 
 <br />
 
@@ -201,7 +201,7 @@ PRIVATE_KEY={MS_PK || P1_PK | P2_PK}
 
 <br />
 
-## High level overview of Where's Alex with the Puzzle Wallet and Puzzle SDK
+## High level overview of Where's Luna with the Puzzle Wallet and Puzzle SDK
 
 <br />
 
@@ -211,6 +211,6 @@ More information on the Puzzle Wallet and Puzzle SDK can be found [here](https:/
 
 <br />
 
-# Walking through the Where's Alex Leo programs
+# Walking through the Where's Luna Leo programs
 
-Repo [here](https://github.com/puzzlehq/wheres_alex/tree/main/program)
+Repo [here](https://github.com/puzzlehq/Leo_wheres_alex/tree/main/program)
