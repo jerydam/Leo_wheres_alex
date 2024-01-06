@@ -2,7 +2,7 @@ import luna_piece_v016.leo;
 import multiparty_pvp_utils_v015.leo;
 
 // The 'coinflip' program.
-program wheres_luna_v019.aleo {
+program wheres_luna_v020.aleo {
 
     // ix: 1
     record Game {

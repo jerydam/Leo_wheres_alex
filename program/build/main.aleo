@@ -1,6 +1,6 @@
 import luna_piece_v016.aleo;
 import multiparty_pvp_utils_v015.aleo;
-program wheres_luna_v019.aleo;
+program wheres_luna_v020.aleo;
 
 
 
@@ -273,7 +273,7 @@ function accept_game:
     output r14 as WaitingRevealNotification.record;
     output r15 as RevealAnswerNotification.record;
     output r16 as Game.record;
-    output r17 as wheres_luna_v019.aleo/accept_game.future;
+    output r17 as wheres_luna_v020.aleo/accept_game.future;
 
 finalize accept_game:
     input r0 as u32.public;
@@ -346,7 +346,7 @@ function finish_game_by_timeout:
     output r4 as Game.record;
     output r5 as GameFinishedNotification.record;
     output r6 as GameFinishedNotification.record;
-    output r9 as wheres_luna_v019.aleo/finish_game_by_timeout.future;
+    output r9 as wheres_luna_v020.aleo/finish_game_by_timeout.future;
 
 finalize finish_game_by_timeout:
     input r0 as u32.public;
