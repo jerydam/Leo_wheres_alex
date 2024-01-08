@@ -20,7 +20,7 @@ export const AppHeader = () => {
           >
             <img
               loading='lazy'
-              src='public/where.png'
+              src='https://cdn.builder.io/api/v1/image/assets%2Fc3503ce26aa14fc0aeb2b0ac096b0df5%2F8973a99df13a435b95a15028ad9dc2d0'
               className='aspect-[2.95] w-[161px] max-w-full self-stretch overflow-hidden fill-white object-cover object-center'
             />
           </button>
