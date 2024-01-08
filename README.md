@@ -49,7 +49,7 @@ If you're interested in building your own multiparty game on Aleo, fork this rep
 
 # How to play Where's Luna
 1. Starting a new game (challenger)
-- mint Luna pieces if you don't have already
+- mint Luna pieces if you don't have already(To mint luna piece in the [devtool](https://dev.puzzle.online/), change the program id from puzzle_pieces_v015.aleo to luna_piece_v016.aleo and use this address "aleo1dyrfq6hr3psyqypd95gr5m7g6dscu6mqq2typs05pfpmnfgywqgshj9mgc" as the opponent address)
 - challenge another Aleo address
 - hide Luna in either the weeds or the bushes
 - set your wager amount to win if your opponent guesses wrong!
